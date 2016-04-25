@@ -7,7 +7,7 @@
 					<div id="post-<?php the_ID(); ?>" <?php post_class('g post'); ?>>
 						<div class="single_page">
 							<header>
-								<h1 class="title"><?php the_title(); ?></h1>
+								
 							</header>
 							<div class="post-content box mark-links">
 								<?php the_content(); ?>                                    
