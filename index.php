@@ -45,7 +45,7 @@
 						</header><!--.header-->
 						<?php if ( empty($point_full_posts) ) : ?>
 							<div class="post-content image-caption-format-1">
-					            <?php echo mts_excerpt(29);?>
+					            <?php echo mts_excerpt(20);?>
 							</div>
 						    <span class="readMore"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="nofollow"><?php _e('Read More','point'); ?></a></span>
 					    <?php else : ?>
